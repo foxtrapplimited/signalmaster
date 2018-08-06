@@ -15,9 +15,7 @@
   "stunservers": [
     {
       "urls": [
-        {
-          "url": "stun:e5.xirsys.com"
-        }
+        "stun:e5.xirsys.com"
       ]
     }
   ],
