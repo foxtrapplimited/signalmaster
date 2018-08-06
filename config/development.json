@@ -14,39 +14,36 @@
   },
   "stunservers": [
     {
+      "username": "2acda042-96fe-11e8-b295-2c6229fefae9",
+      "urls": [
+        "turn:e5.xirsys.com:80?transport=udp",
+        "turn:e5.xirsys.com:3478?transport=udp",
+        "turn:e5.xirsys.com:80?transport=tcp",
+        "turn:e5.xirsys.com:3478?transport=tcp",
+        "turns:e5.xirsys.com:443?transport=tcp",
+        "turns:e5.xirsys.com:5349?transport=tcp"
+      ],
+      "credential": "2acda164-96fe-11e8-a88b-64f832903a4b"
+    },
+    {
       "urls": "stun:e5.xirsys.com"
     }
   ],
   "turnservers": [
     {
       "username": "2acda042-96fe-11e8-b295-2c6229fefae9",
-      "urls": "turn:e5.xirsys.com:80?transport=udp",
+      "urls": [
+        "turn:e5.xirsys.com:80?transport=udp",
+        "turn:e5.xirsys.com:3478?transport=udp",
+        "turn:e5.xirsys.com:80?transport=tcp",
+        "turn:e5.xirsys.com:3478?transport=tcp",
+        "turns:e5.xirsys.com:443?transport=tcp",
+        "turns:e5.xirsys.com:5349?transport=tcp"
+      ],
       "credential": "2acda164-96fe-11e8-a88b-64f832903a4b"
     },
     {
-      "username": "2acda042-96fe-11e8-b295-2c6229fefae9",
-      "urls": "turn:e5.xirsys.com:3478?transport=udp",
-      "credential": "2acda164-96fe-11e8-a88b-64f832903a4b"
-    },
-    {
-      "username": "2acda042-96fe-11e8-b295-2c6229fefae9",
-      "urls": "turn:e5.xirsys.com:80?transport=tcp",
-      "credential": "2acda164-96fe-11e8-a88b-64f832903a4b"
-    },
-    {
-      "username": "2acda042-96fe-11e8-b295-2c6229fefae9",
-      "urls": "turn:e5.xirsys.com:3478?transport=tcp",
-      "credential": "2acda164-96fe-11e8-a88b-64f832903a4b"
-    },
-    {
-      "username": "2acda042-96fe-11e8-b295-2c6229fefae9",
-      "urls": "turns:e5.xirsys.com:443?transport=tcp",
-      "credential": "2acda164-96fe-11e8-a88b-64f832903a4b"
-    },
-    {
-      "username": "2acda042-96fe-11e8-b295-2c6229fefae9",
-      "urls": "turns:e5.xirsys.com:5349?transport=tcp",
-      "credential": "2acda164-96fe-11e8-a88b-64f832903a4b"
+      "urls": "stun:e5.xirsys.com"
     }
   ]
 }
